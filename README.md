@@ -11,10 +11,6 @@ Built with HTML, CSS, JavaScript, and Bootstrap. Styled with a clean dark theme 
 - Fully responsive and mobile-friendly UI
 - Clean, modern, and dark-themed design
 
-## 🚀 Demo
-
-[Live Demo](https://yourusername.github.io/wiki-search-app/)  
-*(Replace this URL after enabling GitHub Pages)*
 
 ## 🛠️ Technologies Used
 
