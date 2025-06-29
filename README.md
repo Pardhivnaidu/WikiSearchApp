@@ -1,4 +1,3 @@
-﻿# WikiSearchApp
 # Wiki Search App
 
 A simple and modern web application to search Wikipedia articles using the Wikipedia API.  
