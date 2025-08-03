@@ -46,14 +46,21 @@ function searchWikipedia(event) {
     let searchInput = searchInputEl.value;
     let url = "https://apis.ccbp.in/wiki-search?search=" + searchInput;
 
-    fetch(url)
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (jsonData) {
-        let { search_results } = jsonData;
-        displayResults(search_results);
-      });
+// Fetch data from the API using the search URL.
+// 1. fetch(url) → sends a request to the API.
+// 2. response.json() → converts the JSON string received into a JavaScript object.
+// 3. jsonData → the object returned from the API (contains a property "search_results").
+// 4. { search_results } = jsonData → destructures the array of search results from the object.
+// 5. displayResults(search_results) → passes the array of results to be displayed on the page.
+fetch(url)
+  .then(function (response) {
+    return response.json(); // Parse response into a JavaScript object
+  })
+  .then(function (jsonData) {
+    let { search_results } = jsonData; // Extract search_results array from the object
+    displayResults(search_results); // Display the search results dynamically
+  });
+    
   }
 }
 
