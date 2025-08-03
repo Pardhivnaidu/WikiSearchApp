@@ -16,7 +16,7 @@ Built with HTML, CSS, JavaScript, and Bootstrap. Styled with a clean dark theme 
 
 - HTML5
 - CSS3 (custom + Bootstrap 4)
-- JavaScript (vanilla)
+- JavaScript 
 - Wikipedia Search API
 - Google Fonts
 
@@ -27,3 +27,4 @@ wiki-search-app/
 ├── style.css # Custom styles
 ├── java.js # JavaScript logic
 └── README.md # Project info
+
